@@ -12,7 +12,7 @@ def draw_field(field):  # Функция для отображения поля 
         print("-" * 13)  # Оформляем разделение в поле игры
 
 
-def take_input(player_input):  # Создаем функцию, которая будет принимать ввод пользователя через аргумент player_token
+def take_input(player_input):  # Создаем функцию, которая будет принимать ввод пользователя через аргумент player_input
     valid = False  # Создаем переменную valid равную False
     while not valid:
         player_answer = input("Куда поставим " + player_input + "? ")  # Создаем переменную player_answer для ввода
